@@ -13,7 +13,8 @@ class Highlights extends Component {
       >
         <div
           style={{
-            fontSize: "20px",
+            textAlign: "left",
+            fontSize: "14px",
             maxWidth: "1340px",
             padding: "0 10px",
             lineHeight: "50px",
@@ -22,7 +23,7 @@ class Highlights extends Component {
             wordBreak: "break-all"
           }}
         >
-          code
+          {this.props.text}
         </div>
       </div>
     );

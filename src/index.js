@@ -370,10 +370,10 @@ class ExampleComponent extends Component {
         case 2:
           const a = Math.random();
           if (Code.length !== 0 && answertype !== "") {
-            let Leadcode = Code.filter(item => {
-              return item.type == answertype;
+            let Leadcode = Code.filter(items => {
+              return items.type == answertype;
             })[0].code;
-            return <Leadcode key={a} />;
+            return <Leadcode text={item.text} key={a} />;
           }
           return (
             <Answer

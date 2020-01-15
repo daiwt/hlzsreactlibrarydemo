@@ -1,5 +1,5 @@
-import { Highlights } from "./Code";
-import {styleconfig} from './styles';
+import { Highlights } from "./config/Code";
+import { styleconfig } from "./config/styles";
 export default {
   /* title */
   text: "对话框组件",
@@ -13,6 +13,7 @@ export default {
       code: Highlights
     }
   ],
+  // answertype: "highlights",
   answertype: "",
   /* style*/
   styleconfig
